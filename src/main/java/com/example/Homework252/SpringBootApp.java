@@ -1,11 +1,10 @@
 package com.example.Homework252;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
+public class SpringBootApp {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootApp.class, args);
+    }
 }
